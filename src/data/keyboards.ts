@@ -1,7 +1,6 @@
 import { CustomKeyboard } from '../types';
 import { keyboardParts } from './parts';
 
-// Helper function to find parts by ID
 const findPartById = (id: string) => {
   return keyboardParts.find(part => part.id === id) || null;
 };
